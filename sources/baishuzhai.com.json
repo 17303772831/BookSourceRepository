@@ -12,7 +12,7 @@
     },
     "detail": {
         "cover":"#fmimg>img",
-        "auther":"#info>p:nth-child(2)@match->(?=作 者：).+",
+        "author":"#info>p:nth-child(2)@match->(?=作 者：).+",
         "update": "#info>p:nth-child(4)@match->(?=最后更新：).+",
         "lastChapter": "#info>p:nth-child(5)>a",
         "summary":"#intro"
