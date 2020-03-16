@@ -7,13 +7,13 @@
         "charset": "UTF-8",
         "list": ".novelslist2>ul>li:nth-child(n+2)",
         "name": ".s2>a",
-        "author": "li:nth-child(n+2)>.s4",
+        "author": "li:nth-child(n+2)>.s4@match->(?<=作 者：).+",
         "detail":".s2>a"
     },
     "detail": {
         "cover":"#fmimg>img",
-        "author":"#info>p:nth-child(2)@match->(?=作 者：).+",
-        "update": "#info>p:nth-child(4)@match->(?=最后更新：).+",
+        "author":"#info>p:nth-child(2)@match->(?<=作 者：).+",
+        "update": "#info>p:nth-child(4)@match->(?<=最后更新：).+",
         "lastChapter": "#info>p:nth-child(5)>a",
         "summary":"#intro"
         },
