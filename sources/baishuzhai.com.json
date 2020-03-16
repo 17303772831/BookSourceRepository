@@ -1,7 +1,7 @@
 {
     "name": "百书斋",
     "url": "baishuzhai.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://baishuzhai.com/searchbook.php?keyword=${key}",
         "charset": "UTF-8",
