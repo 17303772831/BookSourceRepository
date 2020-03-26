@@ -1,13 +1,12 @@
 {
     "name": "乐文小说网lewen",
     "url": "www.lewenxsw.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "http://www.lewenxsw.com/modules/article/search.php@post->searchkey=${key}",
         "charset": "UTF-8",
-        "list": " tbody > tr:nth-child(n+2)",
-        "name": "tr > td:nth-child(2) ",
-        "author": "#booklast > p > a",
+        "list": "tbody > tr:nth-child(n+2)",
+        "name": "td:nth-child(2) > p > a",
         "detail": "tr > td:nth-child(2) > p > a"
     },
     "detail": {
